@@ -34,5 +34,11 @@ public class ExampleProgram {
     int num2 = 8;
     num2 += num1; // num2 = num2 + num1;
     System.out.println("x: "+x+" y: "+y+" z: "+z+" | Num: "+num2);
+
+    System.out.println("------------");
+    String firstName, lastName;
+    firstName = "Sebastian";
+    lastName = "P.";
+    System.out.println("My name is " + firstName +" "+lastName);
   }
 }
