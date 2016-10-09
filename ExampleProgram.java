@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ExampleProgram {
   public static void main(String[ ] args) {
     System.out.println("Hello World");
@@ -40,5 +42,10 @@ public class ExampleProgram {
     firstName = "Sebastian";
     lastName = "P.";
     System.out.println("My name is " + firstName +" "+lastName);
+
+    System.out.println("------------");
+    System.out.println("Type something: ");
+    Scanner myVar = new Scanner(System.in);
+    System.out.println("Output: "+myVar.nextLine());
   }
 }
