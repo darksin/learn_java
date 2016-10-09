@@ -18,13 +18,21 @@ public class ExampleProgram {
     System.out.println("Age: "+age);
     System.out.println("Score: "+score+" | Group: "+group);
 
+    System.out.println("------------");
     int sum1 = 50 + 10;
     int sum2 = sum1 + 66;
     int sum3 = sum2 + sum2;
-    System.out.println("------------");
     int value = 23;
     int res = value % 6; 
     System.out.println("Sum: "+sum3+" | "+res);
 
+    System.out.println("------------");
+    int x = 12;
+    int y = ++x;
+    int z = y--;
+    int num1 = 4;
+    int num2 = 8;
+    num2 += num1; // num2 = num2 + num1;
+    System.out.println("x: "+x+" y: "+y+" z: "+z+" | Num: "+num2);
   }
 }
